@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Bookmarklets",
+    "description": "Use traditional bookmarklets without CSP breakage",
+    "version": "1.0.0",
+    "applications": {
+        "gecko": {
+            "id": "bookmarklets@abeyer.com"
+        }
+    },
+
+    "permissions": [
+        "tabs"
+    ],
+
+    "browser_action": {
+        "default_icon": "bookmark.png",
+        "default_title": "Bookmarklets",
+        "default_popup": "menu/menu.html"
+    }
+}
+

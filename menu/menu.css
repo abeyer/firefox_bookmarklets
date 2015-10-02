@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+}
+
+ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.menu-item {
+    display: block;
+    margin: 0;
+    padding: 3px 30px;
+    font-family: Roboto, "Droid Sans", sans-serif;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+li.menu-item:hover {
+    background-color: steelblue;
+}
